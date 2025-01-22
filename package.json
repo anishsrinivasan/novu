@@ -72,7 +72,8 @@
     "start": "npm run jarvis",
     "symlink:submodules": "pnpm --filter \"@novu/ee-*\" exec node \"$(pwd)/scripts/symlink-ee.mjs\"",
     "test:providers": "cross-env pnpm --filter './packages/providers/**' test",
-    "test": "cross-env CI=true lerna run test:watch --parallel"
+    "test": "cross-env CI=true lerna run test:watch --parallel",
+    "test2":"yarn run"
   },
   "resolutions": {
     "minimist": "1.2.6"
